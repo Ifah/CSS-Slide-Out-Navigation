@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide out menu</title>
+	<link rel="stylesheet" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="menu">
+	<header>
+		<a href="#" class="menu-toggle">Show Menu</a>
+		<nav class="menu-side">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Downloads</a></li>
+				<li><a href="#">Forum</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales varius diam, nec rhoncus elit semper in. Praesent eget risus elit. Sed eu enim suscipit eros egestas consequat in sit amet magna. Vivamus facilisis turpis quis augue tempus, quis luctus sapien tempus. Vivamus sit amet dui eu quam facilisis ultricies. Aliquam vitae elit eu ipsum tincidunt egestas vel nec augue. Curabitur ut ipsum vel lorem sollicitudin egestas. Cras dolor enim, tincidunt ac ipsum vitae, pellentesque mattis neque. Vestibulum pulvinar velit tristique libero rutrum sagittis. Fusce quis nisl hendrerit, convallis turpis ac, sagittis neque. Fusce convallis blandit fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales varius diam, nec rhoncus elit semper in. Praesent eget risus elit. Sed eu enim suscipit eros egestas consequat in sit amet magna. Vivamus facilisis turpis quis augue tempus, quis luctus sapien tempus. Vivamus sit amet dui eu quam facilisis ultricies.</p>
+
+	<p>Aliquam vitae elit eu ipsum tincidunt egestas vel nec augue. Curabitur ut ipsum vel lorem sollicitudin egestas. Cras dolor enim, tincidunt ac ipsum vitae, pellentesque mattis neque. Vestibulum pulvinar velit tristique libero rutrum sagittis. Fusce quis nisl hendrerit, convallis turpis ac, sagittis neque. Fusce convallis blandit fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales varius diam, nec rhoncus elit semper in. Praesent eget risus elit. Sed eu enim suscipit eros egestas consequat in sit amet magna. Vivamus facilisis turpis quis augue tempus, quis luctus sapien tempus. Vivamus sit amet dui eu quam facilisis ultricies. Aliquam vitae elit eu ipsum tincidunt egestas vel nec augue. Curabitur ut ipsum vel lorem sollicitudin egestas. Cras dolor enim, tincidunt ac ipsum vitae, pellentesque mattis neque. Vestibulum pulvinar velit tristique libero rutrum sagittis. Fusce quis nisl hendrerit, convallis turpis ac, sagittis neque. Fusce convallis blandit fermentum.</p>
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script>
+	(function(){
+		var body = $('body');
+		$('.menu-toggle').bind('click', function(){
+			body.toggleClass('menu-open');
+			return false;
+		});
+	})();
+	</script>
+</body>
+</html>
